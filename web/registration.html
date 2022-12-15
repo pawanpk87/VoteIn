@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" ></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="jsscritp/jquery.js"></script>
+    <script src="jsscritp/index.js"></script>
+    <script src="jsscript/registration.js"></script>    
+    <link href="stylesheet/registration.css" rel="stylesheet" />    
+</head>
+
+<body>
+    <div class="page-sidebar">
+        <div class="page-sidebar-main">
+            <div>
+                <div>
+                    <div>
+                        <a href="index.html">
+                            <img src="images/voteicon.png" style="width: 100px; height: 100px" />
+                        </a>
+                    </div>
+                    <div>
+                        <h1>VoteIn</h1>
+                    </div>
+                </div>
+            </div>
+            
+            <a href="login.html">
+            <div class="created-request-post-card-sidebar-page">
+                <div id="first"></div>
+                <div id="second">
+                    Admin Login
+                 </div>
+            </div>
+            </a>
+            
+            <a href="login.html">
+            <div class="created-request-post-card-sidebar-page">
+                <div id="first"></div>
+                <div id="second">
+                     User Login
+                </div>
+            </div>
+            </a>
+            
+            <h3>Parties</h3>
+            <div class="addparty">
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="left">
+            <div class="header">
+                <h2 class="animation a1">Registration Form</h2>
+            </div>
+            <div class="form">
+                <input type="text" id="username" class="form-field animation a3" placeholder="User name" />
+
+                <input type="password" id="password" class="form-field animation a4" placeholder="Password" />
+
+                <input type="password" id="cpassword" class="form-field animation a4" placeholder="Confirm Password" />
+
+                <input type="text" id="adhar" class="form-field animation a4" placeholder="Adhar number" />
+
+                <input type="email" id="email" class="form-field animation a3" placeholder="Email Address" />
+
+                <input type="text" id="mobile" class="form-field animation a4" placeholder="Mobile number" />
+
+                <input type="text" id="address" class="form-field animation a4" placeholder="Address" />
+
+                <input type="text" id="city" class="form-field animation a4" placeholder="City" />
+
+                <button class="animation a6" onclick="addUser()">Register</button>
+            </div>
+        </div>
+        <div class="right"></div>
+    </div>
+</body>
+
+</html>
