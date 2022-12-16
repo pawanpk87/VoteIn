@@ -25,11 +25,6 @@ VoteIn is a web application where voting will be handled by an admin who will ad
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### ABOUT THE PROJECT
-VoteIn is a web application where voting will be handled by an admin who will add candidates for election. To vote for their favorite leaders, users need to register. Once signed up, the user will be able to cast a vote for their favorite leader.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ### How does VoteIn work?
 
   ```
