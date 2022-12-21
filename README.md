@@ -1,6 +1,8 @@
 ### VoteIn
 ```
-VoteIn is an election management web application.
+VoteIn is an election management web application where voting will be handled by an admin who will add 
+candidates for election. To vote for their favorite leaders, users need to register. Once signed up, 
+the user will be able to cast a vote for their favorite leader.
 ```
 ###  Tech Stack
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
@@ -17,13 +19,6 @@ VoteIn is an election management web application.
 
 ![Apache Tomcat](https://img.shields.io/badge/apache%20tomcat-%23F8DC75.svg?style=for-the-badge&logo=apache-tomcat&logoColor=black)
 
-
-
-
-### ABOUT THE PROJECT
-VoteIn is a web application where voting will be handled by an admin who will add candidates for election. To vote for their favorite leaders, users need to register. Once signed up, the user will be able to cast a vote for their favorite leader.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### How does VoteIn work?
 
@@ -49,32 +44,9 @@ VoteIn is a web application where voting will be handled by an admin who will ad
   ![Screenshot (396)](https://user-images.githubusercontent.com/87040096/207978327-18b1c4e6-987b-4b38-aad6-3271fae0bfcf.png)
 
 
-### Built 
-With
-
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
-
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-
-![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
-
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-
-![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
-
-![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white)
-
-![Apache Tomcat](https://img.shields.io/badge/apache%20tomcat-%23F8DC75.svg?style=for-the-badge&logo=apache-tomcat&logoColor=black)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- CONTACT -->
 ## Contact
 
 Your Name - Pawan Kumar Mehta - arowpk@gmail.com
 
 Project Link: [https://github.com/pawanpk87/VoteIn](https://github.com/pawanpk87/VoteIn)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
