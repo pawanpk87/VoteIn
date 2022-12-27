@@ -19,6 +19,11 @@ the user will be able to cast a vote for their favorite leader.
 
 ![Apache Tomcat](https://img.shields.io/badge/apache%20tomcat-%23F8DC75.svg?style=for-the-badge&logo=apache-tomcat&logoColor=black)
 
+### Project Details
+https://buildcode.org/projects/completed/VoteIn
+
+
+
 <!-- CONTACT -->
 ## Contact
 
