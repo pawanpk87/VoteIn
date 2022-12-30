@@ -31,8 +31,10 @@ Voters
 - Registration   
 - Voting
 
-``
-VoteIn application will be handled by one admin so it's important to understand the admin module before voting. Every user either voters or candidates will have to first register as voters, now the admin is the one who is responsible for adding the user to candidate list.
+```
+VoteIn application will be handled by one admin so it's important to understand the admin module before voting. 
+Every user either voters or candidates will have to first register as voters, now the admin is the one who is 
+responsible for adding the user to candidate list.
 
 Example:
   Name: Rahul Gandhi
@@ -54,8 +56,91 @@ Admin Privileges:-
 - Election Result
 
 ```
-To vote, voters must first register using their adhar number. Users (voters) will be redirected to the login page after registering, and once they log in, they will be directed to the voting page where all candidates in the same city as the user (voter) will be displayed, so now the user can vote for anyone.
+To vote, voters must first register using their adhar number. Users (voters) will be redirected to the login page after 
+registering, and once they log in, they will be directed to the voting page where all candidates in the same city as the 
+user (voter) will be displayed, so now the user can vote for anyone.
 ```
+
+### Registration Module:-
+```
+    ____________________________
+       
+        registeration.html    
+                              
+        registration form     
+                              
+                              
+        Register button       
+    _____________________________
+                |
+                |
+                |
+       call the addUser() function
+       of registeration.js
+                |
+                |
+               \ /  
+    _______________________________
+                                  
+        registeration.js      
+                              
+        addUser() Functions   
+                              
+    ______________________________
+                |
+                |
+                |
+       make post request to
+       RegistrationControllerServlet
+                |
+                |
+               \ / 
+    ___________________________________________________
+                                               
+      RegistrationControllerServlet.java   
+                                          
+        1.) fetch the form data            
+        2.) checks the user in             
+            database                           
+              a.) if a user is not present 
+                  in database then         
+                  register                 
+              b.) if user is already       
+                  present then response    
+                  user is already          
+                  registered               
+                                           
+    __________________________________________________
+                        |
+                        |
+       RegistrationControllerServlet call
+       registerUser() Functions of register the 
+       user 
+                        |
+                        |
+                       \ / 
+             ___________________________
+              
+                RegistrationDAO.java  
+                                      
+                registerUser()        
+                Functions register    
+                user                 
+             ___________________________     
+                        |
+                        |
+       register user sends the response to the
+       RegistrationControllerServlet and
+       RegistrationControllerServlet forward 
+       the request for the registration response.jsp 
+       to generate response
+                        |
+                        |
+                       \ / 
+           finally registrationresponse.jsp
+           send the response to the client
+```
+
 
 <!-- CONTACT -->
 ## Contact
