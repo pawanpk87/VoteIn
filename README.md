@@ -22,7 +22,40 @@ the user will be able to cast a vote for their favorite leader.
 ### Project Details
 https://buildcode.org/projects/completed/VoteIn
 
+Admin
+- User(voters) Management
+- Candidate(Leaders) Management
+- Election Result
 
+Voters
+- Registration   
+- Voting
+
+``
+VoteIn application will be handled by one admin so it's important to understand the admin module before voting. Every user either voters or candidates will have to first register as voters, now the admin is the one who is responsible for adding the user to candidate list.
+
+Example:
+  Name: Rahul Gandhi
+  Adhar number:...
+
+now Rahul Gandhi wants to become the candidate for the election then admin will add Rahul Gandhi to the Candidate list.
+```
+
+Admin Privileges:-
+- User(voters) Management
+  1.) Show Users
+  2.) Remove Users
+  3.)  Update Users
+- Candidate Management
+  1.) Add Candidate
+  2.) Update Candidate Details
+  3.) Remove the Candidate 
+  4.) Show the Candidate
+- Election Result
+
+```
+To vote, voters must first register using their adhar number. Users (voters) will be redirected to the login page after registering, and once they log in, they will be directed to the voting page where all candidates in the same city as the user (voter) will be displayed, so now the user can vote for anyone.
+```
 
 <!-- CONTACT -->
 ## Contact
