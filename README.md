@@ -4,7 +4,10 @@ VoteIn is an election management web application where voting will be handled by
 candidates for election. To vote for their favorite leaders, users need to register. Once signed up, 
 the user will be able to cast a vote for their favorite leader.
 ```
-###  Tech Stack
+### Tech Stack
+
+![J2EE (Jakarta EE)](https://img.shields.io/badge/J2EE%20(Jakarta%20EE)-%23000000.svg?style=for-the-badge&logo=jakartaee&logoColor=white)
+
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
@@ -18,6 +21,7 @@ the user will be able to cast a vote for their favorite leader.
 ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white)
 
 ![Apache Tomcat](https://img.shields.io/badge/apache%20tomcat-%23F8DC75.svg?style=for-the-badge&logo=apache-tomcat&logoColor=black)
+
 
 <!-- CONTACT -->
 ## Contact
